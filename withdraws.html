@@ -1,0 +1,805 @@
+
+<html><head>
+<meta charset="UTF-8">
+<title>Coin Birds - online farm with money withdrawal</title>
+<meta name="description" content="Coin Birds - online game with real money withdrawal. Buy birds, sell eggs, exchange resources for real money. Your passive income is here.">
+<meta name="keywords" content="online game, real money withdrawal, investment game, online, golden birds, Coin Birds, golden mine, goldenbirds, moneybirds, money birds, goldenfarm">
+<script src="https://hcaptcha.com/1/api.js?explicit&hl=en" async defer></script>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coin-birds.com" />
+<meta property="og:image" content="https://coin-birds.com/img/promo.jpg">
+<link href="style/progress-id=189.css" rel="stylesheet" />
+<script type="text/javascript" src="js/nprogress.js"></script>
+<link href="style/style-id=190.css" rel="stylesheet" type="text/css">
+<link href="style/mobile-id=195.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<link rel="icon" type="image/png" href="img/birds/king-bird.png">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coin-birds.com" />
+<meta name="viewport" content="width=device-width,height=1214">
+<meta name="MobileOptimized" content="width" />
+<script>
+function noenter2() {
+  if (window.event && window.event.keyCode == 13){
+document.getElementById("login1").style.display="none";
+
+document.getElementById("login2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("login2").style.opacity="1";
+    }, 50);
+
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+
+
+
+
+function PayPassEnter() {
+  if (window.event && window.event.keyCode == 13){
+document.getElementById("pay1").style.display="none";
+
+document.getElementById("pay2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("pay2").style.opacity="1";
+    }, 50);
+
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+
+
+function PayPass() {
+
+document.getElementById("pay1").style.display="none";
+
+document.getElementById("pay2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("pay2").style.opacity="1";
+    }, 50);
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX94BDRDBF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MX94BDRDBF');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZBGND2GLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GZBGND2GLN');
+</script>
+</head>
+<body class="mobile">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a href="welcome.html" style="display: inline-block;display:none;"><div class="mobile-logo-3"></div></a>
+<button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="nav-balance">
+<div class="field-ar"><a href="account/insert.html">{!BALANCE_B!}</a> <span style="margin:3px 10px 0px 0px;">[<a href="account/insert.html"><b></b></a>]</span></div>
+<div class="field-ars"><a href="account/payment.html">{!BALANCE_P!}</a> <span style="margin:3px 10px 0px 0px;">[<a href="account/payment.html"></a>]</span></div>
+</div>
+<div style="display:inline-block;vertical-align: top;margin-left:9px;">
+</div>
+<div style="float:right;">
+<div class="nav-account">
+<span style="margin:3px 10px 0px 0px;">Welcome, <b></b></span>
+</div>
+<button onclick="location.href='/signup';" class="new_button st_new_button" style="width: auto !important;padding: 5.6px 19px 7px 19px !important;min-width: 10px;margin-right:2px !important;">Create account</button>
+<button onclick="location.href='/login';" class="new_button st_new_button" style="width: auto !important;padding: 5.6px 19px 7px 19px !important;min-width: 10px;">Enter</button>
+</div>
+<div class="collapse navbar-collapse" id="navbarNav">
+</div>
+</nav>
+<script>
+$('#nav-btn').click(function() {
+  $('#menu-left').toggleClass('menu-show');
+});
+
+NProgress.start();
+setTimeout(function() { NProgress.done(); }, 300);
+
+function loadPage(href){
+  NProgress.start();
+  setTimeout(function() { NProgress.done(); }, 300);
+  $("#content_block").load(href);
+  clearInterval(interval);
+};
+</script>
+<div class="wrap-loop">
+<div class="wrap">
+<style>
+[class^="cloud-top-"]{
+animation: cloud-top 180s linear infinite;
+}
+    </style>
+<div class="cloud-top-1"></div><div class="cloud-top-2"></div><div class="header">
+<a href="welcome.html" style="display: block;"><div class="logo-3"></div></a>
+<div class="toolbar">
+<div class="main-container f32" style="display:;">
+<div class="trans_lang">
+<div class="button_top trans_lang_btn">
+<span class="flag_ls" style="background: url(/img/flags/en.png) no-repeat;" style="float: left;margin-top: -1px;margin-left: -9px;"></span>
+<span class="lang-set">EN</span><i class="down-lang"></i>
+</div>
+<div class="drop-content-lang">
+<p onclick="SelectLanguage('en')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/uk.png') no-repeat;"></span>English</p>
+<p onclick="SelectLanguage('es')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/es.png') no-repeat;"></span>Español</p>
+<p onclick="SelectLanguage('esl')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/esl.png') no-repeat;margin-top: 5px;"></span>Español (Latin)</p>
+<p onclick="SelectLanguage('fr')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/fr.png') no-repeat;"></span>Français</p>
+<p onclick="SelectLanguage('it')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/it.png') no-repeat;"></span>Italiano</p>
+<p onclick="SelectLanguage('tr')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/tr.png') no-repeat;"></span>Türkçe</p>
+<p onclick="SelectLanguage('br')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/br.png') no-repeat;"></span>Brazil</p>
+<p onclick="SelectLanguage('pt')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/pt.png') no-repeat;"></span>Português</p>
+<p onclick="SelectLanguage('id')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/id.png') no-repeat;"></span>Indonesia</p>
+<p onclick="SelectLanguage('my')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/my.png') no-repeat;"></span>Malay</p>
+<p onclick="SelectLanguage('th')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/th.png') no-repeat;"></span>ภาษาไทย</p>
+</div>
+</div>
+<script>
+
+function SelectLanguage(language){
+      $.ajax({
+        type: "POST",
+        url: "/ajax/language.php",
+        dataType: "text",
+        data: {
+          NewLanguage: language
+        },
+        success: function(response) {
+        window.location.replace(window.location.href);
+        },
+      });
+}
+
+$( ".trans_lang_btn" ).click(function() {
+  $( ".drop-content-lang" ).toggleClass('display-block');
+});
+</script>
+</div>
+</div>
+<ul class="hd-menu">
+<li><div class="h-bird-2"></div><a href="welcome.html" class="current go_yellow lm">Main</a></li>
+<li><div class="h-bird-3"></div><a href="withdraws.html" class="go_brown lm">Payments</a><div style="z-index: 0;" class="new"></div></li>
+<li><div class="h-bird-1"></div><a href="rules.html" class="go_red lm">Rules</a></li>
+<li><div class="h-bird-0"></div><a href="about.html" class="go_green lm">About</a></li>
+<li><div class="h-bird-4"></div><a class="go_blue lm" href="calculate.html">Calculate</a></li>
+<li><div class="h-bird-6"></div><a class="go_king lm" href="support/new.html" style="z-index: 5;position: relative;">Support</a></li>
+<div class="faq" href="/faq" style><a href="faq.html"></a></div>
+<a class="video" href="video.html" style="display:none;"></a>
+<link href="style/style_tour-id=1.css" rel="stylesheet" type="text/css">
+<style>
+.bonus-chest{
+    animation: bonus-chest 9s ease infinite;
+}
+.bonus-chest-dust{
+  animation: bonus-chest-dust-2 2s ease infinite;
+}
+</style>
+<div class="bonus-chest bonus-chest-2" onclick="window.location.href = '/signup';">
+<div class="bonus-chest-3"></div>
+<div class="bonus-chest-dust"></div>
+<div class="bonus-chest-light-1"></div>
+</div>
+<div class="bonus-pack-2" style="opacity:0;width:0px;height:0px;"></div>
+</ul>
+<script>
+var bonus_time = 0;
+  function bonus_timer(timestamp){
+      if (timestamp < 0) timestamp = 0;
+
+      var day = Math.floor( (timestamp/60/60) / 24);
+      var hour = Math.floor(timestamp/60/60);
+      var mins = Math.floor((timestamp - hour*60*60)/60);
+      var secs = Math.floor(timestamp - hour*60*60 - mins*60);
+      var left_hour = Math.floor( (timestamp - day*24*60*60) / 60 / 60 );
+
+      $('span.bon_hours').text(left_hour);
+
+      if(String(left_hour).length > 1)
+          $('span.bon_hours').text(left_hour + ":");
+      else
+          $('span.bon_hours').text("0" + left_hour + ":");
+
+      if(String(mins).length > 1)
+          $('span.bon_mins').text(mins + ":");
+      else
+          $('span.bon_mins').text("0" + mins + ":");
+      if(String(secs).length > 1)
+          $('span.bon_secs').text(secs);
+      else
+          $('span.bon_secs').text("0" + secs);
+
+  }
+      setInterval(function(){
+          bonus_time = bonus_time - 1;
+          bonus_timer(bonus_time);
+          if(bonus_time <= 0){
+
+          }
+      }, 1000);
+
+
+	  bonus_time = bonus_time - 1;
+    bonus_timer(bonus_time);
+
+
+		  setTimeout(function(){
+           document.getElementById("bonus_timer").style.display = "inline-block";
+      }, 100);
+
+
+</script>
+<form action method="POST" id="get_bonus" style="display:none;">
+<input type="hidden" name="bonus">
+</form>
+<script>
+
+function bonus_open() {
+$( "#get_bonus" ).submit();
+};
+
+
+function bonus_open_2() {
+    document.getElementById("popup-bonus").style.display = "block";
+    window.setTimeout(function(){
+  document.getElementById("popup-bonus").style.opacity = "1";
+  }, 10);
+};
+
+function bonus_close() {
+document.getElementById("popup-bonus").style.opacity = "0";
+      window.setTimeout(function(){
+      document.getElementById("popup-bonus").style.display = "none";
+    }, 300);
+
+
+
+};
+
+
+
+
+
+
+function bonus_register() {
+  document.getElementById("b-main").style.display = "block";
+  document.getElementById("bonus_register").style.display = "inline-block";
+  window.setTimeout(function(){
+document.getElementById("b-main").style.opacity = "1";
+}, 10);
+
+};
+</script>
+</div>
+<div class="content">
+<div class="cl-left" id="menu-left"><div class="menu-left-div"><div class="autoriz">
+<div class="prof-title">Sign in account</div>
+<form action="/login" method="post" id="log-in-form-1">
+<div id="login2" style="display: none;" class="why-1">
+<table width="200" border="0" align="center" style="margin-top: 0px;">
+<tbody>
+<tr>
+<td align="center" style>
+</td></tr>
+<tr>
+<td colspan="2" align="center" valign="top"><input name="captcha" class="lg" type="text" size="25" maxlength="50" /></td>
+</tr>
+<tr height="5">
+<td align="center" colspan="2" valign="top"><input type="submit" value="Enter" class="btn_btn btn_in" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="login1">
+<table width="200" border="0" align="center" style="margin-top: 0px;">
+<tbody>
+<tr>
+<td colspan="2">Email:<br><input onkeypress="return noenter()" name="log_email" type="text" size="23" maxlength="35" class="lg"></td>
+</tr>
+<tr>
+<td colspan="2">Password [<a href="recovery.html" class="rs-ps">Forgot password?</a>]:<br><input onkeypress="return noenter()" name="pass" type="password" size="23" maxlength="35" class="ps"></td>
+</tr>
+<tr height="5">
+<script type="text/javascript">
+function onSubmit_LogIn(token) {
+document.getElementById("log-in-form-1").submit();
+}
+
+function noenter() {
+  if (window.event && window.event.keyCode == 13){
+$("#btn_login").click();
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+</script>
+<td align="center" valign="top">
+<button class="btn_btn btn_in h-captcha" id="btn_login" data-sitekey="99b78ad2-949f-4620-a479-abbee3b3c4ce" data-size="invisible" data-callback="onSubmit_LogIn">Enter</button>
+</td>
+</form> <td align="center" valign="top"><p style="font-size:14px; " onclick="location.href='/signup';" class="reg phover">Registration</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script type="text/javascript">
+
+function ToggleHiden1(a){
+var e=document.getElementById(a);
+document.getElementById("login1").style.display="none";
+
+document.getElementById("login2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("login2").style.opacity="1";
+    }, 50);
+
+
+}
+
+
+
+
+</script>
+<div class="statistic">
+<div class="prof-title">Statistics</div>
+<table cellspacing="0" border="0" align="center">
+<tbody>
+<tr>
+<td class="stats-line">Total players:</td>
+<td class="stats-line-st">3111456 Users</td>
+</tr>
+<tr>
+<td class="stats-line">New for 24 hours:</td>
+<td class="stats-line-st">1273 Users</td>
+</tr>
+<tr>
+<td class="stats-line">Active today:</td>
+<td class="stats-line-st">31584 Users</td>
+</tr>
+</tbody>
+</table>
+<div class="st-btn">
+<button onclick="location.href='/signup';" class="new_button st_new_button" style>Create account</button>
+</div>
+</div>
+<div class="stat" style="display:none;padding-top: 5px;">
+<div class="h-title" style="font-family: sans-serif;">Payment systems:</div>
+<div class="cntrl-ps">
+</div>
+</div>
+</div>
+</div></div>
+<div class="cl-right content_s" id="content_s">
+<span id="content_block" style="display: contents;">
+</body>
+</html>
+<style>
+#table_head_style {
+    position: absolute;
+    height: 40px;
+    box-shadow: 0px 1px 0px 0px rgba(190, 195, 197, 0.392), inset 0px 1px 4px 0px #2A7779;
+    background-image: #339999;
+    z-index: 0;
+}
+.first_row {
+    display: table-row;
+    background: #339999;
+    background: #3b80aa;
+    box-shadow: 0 1px 0 0 rgba(244, 249, 252, 0.392), inset 0 1px 4px 0 rgba(174, 107, 12, 0.314);
+    height: 40px;
+    font-size: 15px;
+    font-family: "BukvarnayaMedium";
+    color: #ffffff;
+    text-shadow: 0.5px 0.866px 0 rgba(254, 253, 253, 0.231);
+    box-shadow: 0 1px 0 0 rgba(190, 195, 197, 0.392), inset 0 1px 4px 0 rgba(130, 107, 76, 0.7);
+    z-index: 1;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.cell {
+    display: table-cell;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+.row1 {
+	display: table-row-group;
+	background-color: rgb(238, 238, 238);
+  background-color: rgb(251, 246, 239);
+	font-size: 14px;
+	font-family: "BukvarnayaMedium";
+	color: rgb(86, 86, 86);
+	height: 40px;
+}
+.row2 {
+	display: table-row-group;
+	background-color: rgba(246, 246, 246, 0.82);
+  background-color: rgba(255, 251, 251, 0.82);
+	font-size: 14px;
+	font-family: "BukvarnayaMedium";
+	color: rgb(86, 86, 86);
+	height: 40px;
+}
+.table {
+display: table;
+width: 100%;
+border-left: 1px solid #eee;
+border-right: 1px solid #eee;
+}
+.row1:hover,.row2:hover{
+background-color: rgba(240, 237, 231, 0.82);
+}
+</style>
+<div class="s-bk-lf">
+<div class="acc-title">Payments</div>
+</div>
+<div class="silver-bk">
+<div class="table" id="payments_table">
+<div id="table_head_style"></div>
+<div class="row first_row" style="font-weight:600;color: #f8f7f1;">
+<div class="cell">User</div>
+<div class="cell" style="display:none;">Gold bars</div>
+<div class="cell">Sum</div>
+<div class="cell" style="width:50px;">PS</div>
+<div class="cell" style="width:50px;">Purse</div>
+<div class="cell" style="width:50px;">Date</div>
+</div>
+<div class="row1">
+<div class="cell">Tj82<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">407 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.04 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1081671<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Tj82<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">407 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.04 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1081671<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Hafsa<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">333 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+3.97 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1078374<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">lepe<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">407 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.04 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P38985<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Ainamijo<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">2000 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.23 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1051015<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Naser4<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">542 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.06 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1108194<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Ham<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">103427 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+12.69 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1109053<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Ashraf20<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">105 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.24 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1092866<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Ashraf20<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">105 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.24 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1092866<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Ashraf20<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">105 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.24 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1092866<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Ashraf20<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">105 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.24 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1092866<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Jaa<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">149 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.77 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1088495<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">kazemp<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">2012 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+24.00 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1108491<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Hivongxa<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">9437 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.14 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1099563<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Praveenk<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">1288 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.15 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1098844<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">andregar<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">2363 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.26 EUR</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1111490<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Defg<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">8729 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+1.06 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1073379<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">demet<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">209 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+2.48 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1105833<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Zecri<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">1100 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.12 EUR</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1112788<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">aruera<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">1500 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.17 EUR</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1112349<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Filipek<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">855 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+10.19 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1097606<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-26</div>
+</div>
+<div class="row1">
+<div class="cell">Jaa<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">507 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+6.04 RUB</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1088495<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-25</div>
+</div>
+<div class="row1">
+<div class="cell">jofe<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">30669 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+3.55 EUR</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1108725<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-25</div>
+</div>
+<div class="row1">
+<div class="cell">Bassara2<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">22500 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+2.75 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1102988<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-25</div>
+</div>
+<div class="row1">
+<div class="cell">Vorador9<font style="color: #bc5d5d;">XX</font></div>
+<div class="cell" style="display:none;">1200 <img style="width: 31px; vertical-align: middle; margin: -6px 0 0 0;" src="img/icons/gold-bar.png"></div>
+<div class="cell">
+0.14 USD</div>
+<div class="cell" style="width:50px;">
+<img src="img/ps/Payeer.png" width="20" border="0" alt="Payeer" title="Payeer">
+</div>
+<div class="cell" style="width:50px;">
+<font>P1094509<font style="color: #bc5d5d;">XXX</font></font>
+</div>
+<div class="cell">2024-02-25</div>
+</div>
+</div>
+<p>Displayed last 25 payments</p>
+</div>
+</span></div>
+<div class="clr"></div>
+<div class="footer">
+<div class="bottom_tree"></div>
+<center>
+<div class="footer-text">coin-birds.com - ALL RIGHTS RESERVED - DDoS Protected, SSL Certified - Supported by <a style="color:#f7f7f7;" href="https://cloudflare.com/" target="_blank">Cloudflare</a></div>
+</center>
+</div>
+<script>
+</script>
+<script type="text/javascript" src="js/scrollReveal.js"></script>
+<script>
+        window.scrollReveal = new scrollReveal({viewportFactor:0.33, reset: true, init: true});
+    </script>
+

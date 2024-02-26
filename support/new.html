@@ -1,0 +1,551 @@
+
+<html><head>
+<meta charset="UTF-8">
+<title>Coin Birds - online farm with money withdrawal</title>
+<meta name="description" content="Coin Birds - online game with real money withdrawal. Buy birds, sell eggs, exchange resources for real money. Your passive income is here.">
+<meta name="keywords" content="online game, real money withdrawal, investment game, online, golden birds, Coin Birds, golden mine, goldenbirds, moneybirds, money birds, goldenfarm">
+<script src="https://hcaptcha.com/1/api.js?explicit&hl=en" async defer></script>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coin-birds.com" />
+<meta property="og:image" content="https://coin-birds.com/img/promo.jpg">
+<link href="../style/progress-id=189.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/nprogress.js"></script>
+<link href="../style/style-id=190.css" rel="stylesheet" type="text/css">
+<link href="../style/mobile-id=195.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/functions.js"></script>
+<link rel="icon" type="image/png" href="../img/birds/king-bird.png">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coin-birds.com" />
+<meta name="viewport" content="width=device-width,height=1214">
+<meta name="MobileOptimized" content="width" />
+<script>
+function noenter2() {
+  if (window.event && window.event.keyCode == 13){
+document.getElementById("login1").style.display="none";
+
+document.getElementById("login2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("login2").style.opacity="1";
+    }, 50);
+
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+
+
+
+
+function PayPassEnter() {
+  if (window.event && window.event.keyCode == 13){
+document.getElementById("pay1").style.display="none";
+
+document.getElementById("pay2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("pay2").style.opacity="1";
+    }, 50);
+
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+
+
+function PayPass() {
+
+document.getElementById("pay1").style.display="none";
+
+document.getElementById("pay2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("pay2").style.opacity="1";
+    }, 50);
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX94BDRDBF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MX94BDRDBF');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZBGND2GLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GZBGND2GLN');
+</script>
+</head>
+<body class="mobile">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a href="../welcome.html" style="display: inline-block;display:none;"><div class="mobile-logo-3"></div></a>
+<button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="nav-balance">
+<div class="field-ar"><a href="../account/insert.html">{!BALANCE_B!}</a> <span style="margin:3px 10px 0px 0px;">[<a href="../account/insert.html"><b></b></a>]</span></div>
+<div class="field-ars"><a href="../account/payment.html">{!BALANCE_P!}</a> <span style="margin:3px 10px 0px 0px;">[<a href="../account/payment.html"></a>]</span></div>
+</div>
+<div style="display:inline-block;vertical-align: top;margin-left:9px;">
+</div>
+<div style="float:right;">
+<div class="nav-account">
+<span style="margin:3px 10px 0px 0px;">Welcome, <b></b></span>
+</div>
+<button onclick="location.href='/signup';" class="new_button st_new_button" style="width: auto !important;padding: 5.6px 19px 7px 19px !important;min-width: 10px;margin-right:2px !important;">Create account</button>
+<button onclick="location.href='/login';" class="new_button st_new_button" style="width: auto !important;padding: 5.6px 19px 7px 19px !important;min-width: 10px;">Enter</button>
+</div>
+<div class="collapse navbar-collapse" id="navbarNav">
+</div>
+</nav>
+<script>
+$('#nav-btn').click(function() {
+  $('#menu-left').toggleClass('menu-show');
+});
+
+NProgress.start();
+setTimeout(function() { NProgress.done(); }, 300);
+
+function loadPage(href){
+  NProgress.start();
+  setTimeout(function() { NProgress.done(); }, 300);
+  $("#content_block").load(href);
+  clearInterval(interval);
+};
+</script>
+<div class="wrap-loop">
+<div class="wrap">
+<style>
+[class^="cloud-top-"]{
+animation: cloud-top 180s linear infinite;
+}
+    </style>
+<div class="cloud-top-1"></div><div class="cloud-top-2"></div><div class="header">
+<a href="../welcome.html" style="display: block;"><div class="logo-3"></div></a>
+<div class="toolbar">
+<div class="main-container f32" style="display:;">
+<div class="trans_lang">
+<div class="button_top trans_lang_btn">
+<span class="flag_ls" style="background: url(/img/flags/en.png) no-repeat;" style="float: left;margin-top: -1px;margin-left: -9px;"></span>
+<span class="lang-set">EN</span><i class="down-lang"></i>
+</div>
+<div class="drop-content-lang">
+<p onclick="SelectLanguage('en')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/uk.png') no-repeat;"></span>English</p>
+<p onclick="SelectLanguage('es')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/es.png') no-repeat;"></span>Español</p>
+<p onclick="SelectLanguage('esl')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/esl.png') no-repeat;margin-top: 5px;"></span>Español (Latin)</p>
+<p onclick="SelectLanguage('fr')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/fr.png') no-repeat;"></span>Français</p>
+<p onclick="SelectLanguage('it')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/it.png') no-repeat;"></span>Italiano</p>
+<p onclick="SelectLanguage('tr')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/tr.png') no-repeat;"></span>Türkçe</p>
+<p onclick="SelectLanguage('br')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/br.png') no-repeat;"></span>Brazil</p>
+<p onclick="SelectLanguage('pt')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/pt.png') no-repeat;"></span>Português</p>
+<p onclick="SelectLanguage('id')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/id.png') no-repeat;"></span>Indonesia</p>
+<p onclick="SelectLanguage('my')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/my.png') no-repeat;"></span>Malay</p>
+<p onclick="SelectLanguage('th')" class="f_d_l"><span class="flag_l" style="background: url('../img/flags/th.png') no-repeat;"></span>ภาษาไทย</p>
+</div>
+</div>
+<script>
+
+function SelectLanguage(language){
+      $.ajax({
+        type: "POST",
+        url: "/ajax/language.php",
+        dataType: "text",
+        data: {
+          NewLanguage: language
+        },
+        success: function(response) {
+        window.location.replace(window.location.href);
+        },
+      });
+}
+
+$( ".trans_lang_btn" ).click(function() {
+  $( ".drop-content-lang" ).toggleClass('display-block');
+});
+</script>
+</div>
+</div>
+<ul class="hd-menu">
+<li><div class="h-bird-2"></div><a href="../welcome.html" class="current go_yellow lm">Main</a></li>
+<li><div class="h-bird-3"></div><a href="../withdraws.html" class="go_brown lm">Payments</a><div style="z-index: 0;" class="new"></div></li>
+<li><div class="h-bird-1"></div><a href="../rules.html" class="go_red lm">Rules</a></li>
+<li><div class="h-bird-0"></div><a href="../about.html" class="go_green lm">About</a></li>
+<li><div class="h-bird-4"></div><a class="go_blue lm" href="../calculate.html">Calculate</a></li>
+<li><div class="h-bird-6"></div><a class="go_king lm" href="new.html" style="z-index: 5;position: relative;">Support</a></li>
+<div class="faq" href="/faq" style><a href="../faq.html"></a></div>
+<a class="video" href="../video.html" style="display:none;"></a>
+<link href="../style/style_tour-id=1.css" rel="stylesheet" type="text/css">
+<style>
+.bonus-chest{
+    animation: bonus-chest 9s ease infinite;
+}
+.bonus-chest-dust{
+  animation: bonus-chest-dust-2 2s ease infinite;
+}
+</style>
+<div class="bonus-chest bonus-chest-2" onclick="window.location.href = '/signup';">
+<div class="bonus-chest-3"></div>
+<div class="bonus-chest-dust"></div>
+<div class="bonus-chest-light-1"></div>
+</div>
+<div class="bonus-pack-2" style="opacity:0;width:0px;height:0px;"></div>
+</ul>
+<script>
+var bonus_time = 0;
+  function bonus_timer(timestamp){
+      if (timestamp < 0) timestamp = 0;
+
+      var day = Math.floor( (timestamp/60/60) / 24);
+      var hour = Math.floor(timestamp/60/60);
+      var mins = Math.floor((timestamp - hour*60*60)/60);
+      var secs = Math.floor(timestamp - hour*60*60 - mins*60);
+      var left_hour = Math.floor( (timestamp - day*24*60*60) / 60 / 60 );
+
+      $('span.bon_hours').text(left_hour);
+
+      if(String(left_hour).length > 1)
+          $('span.bon_hours').text(left_hour + ":");
+      else
+          $('span.bon_hours').text("0" + left_hour + ":");
+
+      if(String(mins).length > 1)
+          $('span.bon_mins').text(mins + ":");
+      else
+          $('span.bon_mins').text("0" + mins + ":");
+      if(String(secs).length > 1)
+          $('span.bon_secs').text(secs);
+      else
+          $('span.bon_secs').text("0" + secs);
+
+  }
+      setInterval(function(){
+          bonus_time = bonus_time - 1;
+          bonus_timer(bonus_time);
+          if(bonus_time <= 0){
+
+          }
+      }, 1000);
+
+
+	  bonus_time = bonus_time - 1;
+    bonus_timer(bonus_time);
+
+
+		  setTimeout(function(){
+           document.getElementById("bonus_timer").style.display = "inline-block";
+      }, 100);
+
+
+</script>
+<form action method="POST" id="get_bonus" style="display:none;">
+<input type="hidden" name="bonus">
+</form>
+<script>
+
+function bonus_open() {
+$( "#get_bonus" ).submit();
+};
+
+
+function bonus_open_2() {
+    document.getElementById("popup-bonus").style.display = "block";
+    window.setTimeout(function(){
+  document.getElementById("popup-bonus").style.opacity = "1";
+  }, 10);
+};
+
+function bonus_close() {
+document.getElementById("popup-bonus").style.opacity = "0";
+      window.setTimeout(function(){
+      document.getElementById("popup-bonus").style.display = "none";
+    }, 300);
+
+
+
+};
+
+
+
+
+
+
+function bonus_register() {
+  document.getElementById("b-main").style.display = "block";
+  document.getElementById("bonus_register").style.display = "inline-block";
+  window.setTimeout(function(){
+document.getElementById("b-main").style.opacity = "1";
+}, 10);
+
+};
+</script>
+</div>
+<div class="content">
+<div class="cl-left" id="menu-left"><div class="menu-left-div"><div class="autoriz">
+<div class="prof-title">Sign in account</div>
+<form action="/login" method="post" id="log-in-form-1">
+<div id="login2" style="display: none;" class="why-1">
+<table width="200" border="0" align="center" style="margin-top: 0px;">
+<tbody>
+<tr>
+<td align="center" style>
+</td></tr>
+<tr>
+<td colspan="2" align="center" valign="top"><input name="captcha" class="lg" type="text" size="25" maxlength="50" /></td>
+</tr>
+<tr height="5">
+<td align="center" colspan="2" valign="top"><input type="submit" value="Enter" class="btn_btn btn_in" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="login1">
+<table width="200" border="0" align="center" style="margin-top: 0px;">
+<tbody>
+<tr>
+<td colspan="2">Email:<br><input onkeypress="return noenter()" name="log_email" type="text" size="23" maxlength="35" class="lg"></td>
+</tr>
+<tr>
+<td colspan="2">Password [<a href="../recovery.html" class="rs-ps">Forgot password?</a>]:<br><input onkeypress="return noenter()" name="pass" type="password" size="23" maxlength="35" class="ps"></td>
+</tr>
+<tr height="5">
+<script type="text/javascript">
+function onSubmit_LogIn(token) {
+document.getElementById("log-in-form-1").submit();
+}
+
+function noenter() {
+  if (window.event && window.event.keyCode == 13){
+$("#btn_login").click();
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+</script>
+<td align="center" valign="top">
+<button class="btn_btn btn_in h-captcha" id="btn_login" data-sitekey="99b78ad2-949f-4620-a479-abbee3b3c4ce" data-size="invisible" data-callback="onSubmit_LogIn">Enter</button>
+</td>
+</form> <td align="center" valign="top"><p style="font-size:14px; " onclick="location.href='/signup';" class="reg phover">Registration</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script type="text/javascript">
+
+function ToggleHiden1(a){
+var e=document.getElementById(a);
+document.getElementById("login1").style.display="none";
+
+document.getElementById("login2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("login2").style.opacity="1";
+    }, 50);
+
+
+}
+
+
+
+
+</script>
+<div class="statistic">
+<div class="prof-title">Statistics</div>
+<table cellspacing="0" border="0" align="center">
+<tbody>
+<tr>
+<td class="stats-line">Total players:</td>
+<td class="stats-line-st">3111456 Users</td>
+</tr>
+<tr>
+<td class="stats-line">New for 24 hours:</td>
+<td class="stats-line-st">1273 Users</td>
+</tr>
+<tr>
+<td class="stats-line">Active today:</td>
+<td class="stats-line-st">31584 Users</td>
+</tr>
+</tbody>
+</table>
+<div class="st-btn">
+<button onclick="location.href='/signup';" class="new_button st_new_button" style>Create account</button>
+</div>
+</div>
+<div class="stat" style="display:none;padding-top: 5px;">
+<div class="h-title" style="font-family: sans-serif;">Payment systems:</div>
+<div class="cntrl-ps">
+</div>
+</div>
+</div>
+</div></div>
+<div class="cl-right content_s" id="content_s">
+<span id="content_block" style="display: contents;">
+</body>
+</html>
+<style>
+
+
+.new_button {
+	height: 30px;
+    margin-top: 10px;
+    position: relative;
+    color: #ffffff !important;
+    height: 28px;
+    min-width: 160px;
+    font-family: "Tahoma";
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 7px 0px 5px 0px;
+    padding: 7px 20px;
+    stext-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5) !important;
+	text-shadow: 1px 1px 1px #51613ad1, 1px 0px 3px #5b8045;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #9ec339 !important;
+    -webkit-box-shadow: 0px 3px 1px -1px #5B6600 !important;
+    -moz-box-shadow: 0px 3px 1px -1px #5B6600 !important;
+    box-shadow: 0px 2.7px 1px -1px #5B6600 !important;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+
+.new_button:hover {
+	background: #abcf48 !important;
+
+	height: 30px;
+    margin-top: 10px;
+    position: relative;
+    color: #ffffff !important;
+    height: 28px;
+    font-family: "Tahoma";
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 7px 0px 5px 0px;
+    padding: 7px 20px;
+    stext-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5) !important;
+	text-shadow: 1px 1px 1px #51613ad1, 1px 0px 3px #5b8045;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+    -webkit-box-shadow: 0px 2.7px 1px -1px #5B6600 !important;
+    -moz-box-shadow: 0px 2.7px 1px -1px #5B6600 !important;
+    box-shadow: 0px 2.7px 1px -1px #5B6600 !important;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.hr3 {
+    border: none;
+    background-color: #e8e2ca;
+    color: #ecd5a3;
+    height: 1px;
+}
+
+.msg-t-answer{
+    background: #d8f7d5;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    color: #2f652a;
+    border: 1px solid #96ca90;
+    border-radius: 1px;
+}
+.msg-t-solved{
+    background: #d8f7d5;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    color: #2f652a;
+    border: 1px solid #96ca90;
+    border-radius: 1px;
+}
+.msg-t-notify {
+    background: #d5eaf7;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    color: #266992;
+    border: 1px solid #b1cee0;
+    border-radius: 1px;
+}
+		</style>
+<div class="s-bk-lf">
+<div class="acc-title">Help service</div>
+</div>
+<div class="silver-bk">
+<center><label class="control-label" for="title"><b>Before creating a new application, make sure that there is no necessary for you information in <a href="../faq.html" data-toggle="tab">Frequently Asked Questions</a></b><br></label>
+</center><br><hr class="hr3">
+<script type="text/javascript">
+
+
+function isNotMax(oTextArea) {
+  return oTextArea.value.length <= oTextArea.getAttribute('maxlength');
+}
+
+
+function isNotMax(e){
+  e = e || window.event;
+  var target = e.target || e.srcElement;
+  var code=e.keyCode?e.keyCode:(e.which?e.which:e.charCode)
+
+  switch (code){
+    case 13:
+    case 8:
+    case 9:
+    case 46:
+    case 37:
+    case 38:
+    case 39:
+    case 40:
+      return true;
+  }
+  return target.value.length <= target.getAttribute('maxlength');
+}
+
+
+</script>
+<center><br>To apply for the technical support sign in, please!<br>Email: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="a8dbddd8d8c7dadce8cbc7c1c685cac1daccdb86cbc7c5">[email&#160;protected]</a></center>
+</div>
+</span></div>
+<div class="clr"></div>
+<div class="footer">
+<div class="bottom_tree"></div>
+<center>
+<div class="footer-text">coin-birds.com - ALL RIGHTS RESERVED - DDoS Protected, SSL Certified - Supported by <a style="color:#f7f7f7;" href="https://cloudflare.com/" target="_blank">Cloudflare</a></div>
+</center>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+</script>
+<script type="text/javascript" src="../js/scrollReveal.js"></script>
+<script>
+        window.scrollReveal = new scrollReveal({viewportFactor:0.33, reset: true, init: true});
+    </script>
+

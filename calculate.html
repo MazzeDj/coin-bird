@@ -1,0 +1,700 @@
+
+<html><head>
+<meta charset="UTF-8">
+<title>Coin Birds - online farm with money withdrawal</title>
+<meta name="description" content="Coin Birds - online game with real money withdrawal. Buy birds, sell eggs, exchange resources for real money. Your passive income is here.">
+<meta name="keywords" content="online game, real money withdrawal, investment game, online, golden birds, Coin Birds, golden mine, goldenbirds, moneybirds, money birds, goldenfarm">
+<script src="https://hcaptcha.com/1/api.js?explicit&hl=en" async defer></script>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coin-birds.com" />
+<meta property="og:image" content="https://coin-birds.com/img/promo.jpg">
+<link href="style/progress-id=189.css" rel="stylesheet" />
+<script type="text/javascript" src="js/nprogress.js"></script>
+<link href="style/style-id=190.css" rel="stylesheet" type="text/css">
+<link href="style/mobile-id=195.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<link rel="icon" type="image/png" href="img/birds/king-bird.png">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coin-birds.com" />
+<meta name="viewport" content="width=device-width,height=1214">
+<meta name="MobileOptimized" content="width" />
+<script>
+function noenter2() {
+  if (window.event && window.event.keyCode == 13){
+document.getElementById("login1").style.display="none";
+
+document.getElementById("login2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("login2").style.opacity="1";
+    }, 50);
+
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+
+
+
+
+function PayPassEnter() {
+  if (window.event && window.event.keyCode == 13){
+document.getElementById("pay1").style.display="none";
+
+document.getElementById("pay2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("pay2").style.opacity="1";
+    }, 50);
+
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+
+
+function PayPass() {
+
+document.getElementById("pay1").style.display="none";
+
+document.getElementById("pay2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("pay2").style.opacity="1";
+    }, 50);
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX94BDRDBF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MX94BDRDBF');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZBGND2GLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GZBGND2GLN');
+</script>
+</head>
+<body class="mobile">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a href="welcome.html" style="display: inline-block;display:none;"><div class="mobile-logo-3"></div></a>
+<button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="nav-balance">
+<div class="field-ar"><a href="account/insert.html">{!BALANCE_B!}</a> <span style="margin:3px 10px 0px 0px;">[<a href="account/insert.html"><b></b></a>]</span></div>
+<div class="field-ars"><a href="account/payment.html">{!BALANCE_P!}</a> <span style="margin:3px 10px 0px 0px;">[<a href="account/payment.html"></a>]</span></div>
+</div>
+<div style="display:inline-block;vertical-align: top;margin-left:9px;">
+</div>
+<div style="float:right;">
+<div class="nav-account">
+<span style="margin:3px 10px 0px 0px;">Welcome, <b></b></span>
+</div>
+<button onclick="location.href='/signup';" class="new_button st_new_button" style="width: auto !important;padding: 5.6px 19px 7px 19px !important;min-width: 10px;margin-right:2px !important;">Create account</button>
+<button onclick="location.href='/login';" class="new_button st_new_button" style="width: auto !important;padding: 5.6px 19px 7px 19px !important;min-width: 10px;">Enter</button>
+</div>
+<div class="collapse navbar-collapse" id="navbarNav">
+</div>
+</nav>
+<script>
+$('#nav-btn').click(function() {
+  $('#menu-left').toggleClass('menu-show');
+});
+
+NProgress.start();
+setTimeout(function() { NProgress.done(); }, 300);
+
+function loadPage(href){
+  NProgress.start();
+  setTimeout(function() { NProgress.done(); }, 300);
+  $("#content_block").load(href);
+  clearInterval(interval);
+};
+</script>
+<div class="wrap-loop">
+<div class="wrap">
+<style>
+[class^="cloud-top-"]{
+animation: cloud-top 180s linear infinite;
+}
+    </style>
+<div class="cloud-top-1"></div><div class="cloud-top-2"></div><div class="cloud-top-2"></div><div class="cloud-top-3"></div><div class="cloud-top-4"></div><div class="header">
+<a href="welcome.html" style="display: block;"><div class="logo-3"></div></a>
+<div class="toolbar">
+<div class="main-container f32" style="display:;">
+<div class="trans_lang">
+<div class="button_top trans_lang_btn">
+<span class="flag_ls" style="background: url(/img/flags/en.png) no-repeat;" style="float: left;margin-top: -1px;margin-left: -9px;"></span>
+<span class="lang-set">EN</span><i class="down-lang"></i>
+</div>
+<div class="drop-content-lang">
+<p onclick="SelectLanguage('en')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/uk.png') no-repeat;"></span>English</p>
+<p onclick="SelectLanguage('es')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/es.png') no-repeat;"></span>Español</p>
+<p onclick="SelectLanguage('esl')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/esl.png') no-repeat;margin-top: 5px;"></span>Español (Latin)</p>
+<p onclick="SelectLanguage('fr')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/fr.png') no-repeat;"></span>Français</p>
+<p onclick="SelectLanguage('it')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/it.png') no-repeat;"></span>Italiano</p>
+<p onclick="SelectLanguage('tr')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/tr.png') no-repeat;"></span>Türkçe</p>
+<p onclick="SelectLanguage('br')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/br.png') no-repeat;"></span>Brazil</p>
+<p onclick="SelectLanguage('pt')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/pt.png') no-repeat;"></span>Português</p>
+<p onclick="SelectLanguage('id')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/id.png') no-repeat;"></span>Indonesia</p>
+<p onclick="SelectLanguage('my')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/my.png') no-repeat;"></span>Malay</p>
+<p onclick="SelectLanguage('th')" class="f_d_l"><span class="flag_l" style="background: url('img/flags/th.png') no-repeat;"></span>ภาษาไทย</p>
+</div>
+</div>
+<script>
+
+function SelectLanguage(language){
+      $.ajax({
+        type: "POST",
+        url: "/ajax/language.php",
+        dataType: "text",
+        data: {
+          NewLanguage: language
+        },
+        success: function(response) {
+        window.location.replace(window.location.href);
+        },
+      });
+}
+
+$( ".trans_lang_btn" ).click(function() {
+  $( ".drop-content-lang" ).toggleClass('display-block');
+});
+</script>
+</div>
+</div>
+<ul class="hd-menu">
+<li><div class="h-bird-2"></div><a href="welcome.html" class="current go_yellow lm">Main</a></li>
+<li><div class="h-bird-3"></div><a href="withdraws.html" class="go_brown lm">Payments</a><div style="z-index: 0;" class="new"></div></li>
+<li><div class="h-bird-1"></div><a href="rules.html" class="go_red lm">Rules</a></li>
+<li><div class="h-bird-0"></div><a href="about.html" class="go_green lm">About</a></li>
+<li><div class="h-bird-4"></div><a class="go_blue lm" href="calculate.html">Calculate</a></li>
+<li><div class="h-bird-6"></div><a class="go_king lm" href="support/new.html" style="z-index: 5;position: relative;">Support</a></li>
+<div class="faq" href="/faq" style><a href="faq.html"></a></div>
+<a class="video" href="video.html" style="display:none;"></a>
+<link href="style/style_tour-id=1.css" rel="stylesheet" type="text/css">
+<style>
+.bonus-chest{
+    animation: bonus-chest 9s ease infinite;
+}
+.bonus-chest-dust{
+  animation: bonus-chest-dust-2 2s ease infinite;
+}
+</style>
+<div class="bonus-chest bonus-chest-2" onclick="window.location.href = '/signup';">
+<div class="bonus-chest-3"></div>
+<div class="bonus-chest-dust"></div>
+<div class="bonus-chest-light-1"></div>
+</div>
+<div class="bonus-pack-2" style="opacity:0;width:0px;height:0px;"></div>
+</ul>
+<script>
+var bonus_time = 0;
+  function bonus_timer(timestamp){
+      if (timestamp < 0) timestamp = 0;
+
+      var day = Math.floor( (timestamp/60/60) / 24);
+      var hour = Math.floor(timestamp/60/60);
+      var mins = Math.floor((timestamp - hour*60*60)/60);
+      var secs = Math.floor(timestamp - hour*60*60 - mins*60);
+      var left_hour = Math.floor( (timestamp - day*24*60*60) / 60 / 60 );
+
+      $('span.bon_hours').text(left_hour);
+
+      if(String(left_hour).length > 1)
+          $('span.bon_hours').text(left_hour + ":");
+      else
+          $('span.bon_hours').text("0" + left_hour + ":");
+
+      if(String(mins).length > 1)
+          $('span.bon_mins').text(mins + ":");
+      else
+          $('span.bon_mins').text("0" + mins + ":");
+      if(String(secs).length > 1)
+          $('span.bon_secs').text(secs);
+      else
+          $('span.bon_secs').text("0" + secs);
+
+  }
+      setInterval(function(){
+          bonus_time = bonus_time - 1;
+          bonus_timer(bonus_time);
+          if(bonus_time <= 0){
+
+          }
+      }, 1000);
+
+
+	  bonus_time = bonus_time - 1;
+    bonus_timer(bonus_time);
+
+
+		  setTimeout(function(){
+           document.getElementById("bonus_timer").style.display = "inline-block";
+      }, 100);
+
+
+</script>
+<form action method="POST" id="get_bonus" style="display:none;">
+<input type="hidden" name="bonus">
+</form>
+<script>
+
+function bonus_open() {
+$( "#get_bonus" ).submit();
+};
+
+
+function bonus_open_2() {
+    document.getElementById("popup-bonus").style.display = "block";
+    window.setTimeout(function(){
+  document.getElementById("popup-bonus").style.opacity = "1";
+  }, 10);
+};
+
+function bonus_close() {
+document.getElementById("popup-bonus").style.opacity = "0";
+      window.setTimeout(function(){
+      document.getElementById("popup-bonus").style.display = "none";
+    }, 300);
+
+
+
+};
+
+
+
+
+
+
+function bonus_register() {
+  document.getElementById("b-main").style.display = "block";
+  document.getElementById("bonus_register").style.display = "inline-block";
+  window.setTimeout(function(){
+document.getElementById("b-main").style.opacity = "1";
+}, 10);
+
+};
+</script>
+</div>
+<div class="content">
+<div class="cl-left" id="menu-left"><div class="menu-left-div"><div class="autoriz">
+<div class="prof-title">Sign in account</div>
+<form action="/login" method="post" id="log-in-form-1">
+<div id="login2" style="display: none;" class="why-1">
+<table width="200" border="0" align="center" style="margin-top: 0px;">
+<tbody>
+<tr>
+<td align="center" style>
+</td></tr>
+<tr>
+<td colspan="2" align="center" valign="top"><input name="captcha" class="lg" type="text" size="25" maxlength="50" /></td>
+</tr>
+<tr height="5">
+<td align="center" colspan="2" valign="top"><input type="submit" value="Enter" class="btn_btn btn_in" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="login1">
+<table width="200" border="0" align="center" style="margin-top: 0px;">
+<tbody>
+<tr>
+<td colspan="2">Email:<br><input onkeypress="return noenter()" name="log_email" type="text" size="23" maxlength="35" class="lg"></td>
+</tr>
+<tr>
+<td colspan="2">Password [<a href="recovery.html" class="rs-ps">Forgot password?</a>]:<br><input onkeypress="return noenter()" name="pass" type="password" size="23" maxlength="35" class="ps"></td>
+</tr>
+<tr height="5">
+<script type="text/javascript">
+function onSubmit_LogIn(token) {
+document.getElementById("log-in-form-1").submit();
+}
+
+function noenter() {
+  if (window.event && window.event.keyCode == 13){
+$("#btn_login").click();
+  return !(window.event && window.event.keyCode == 13);
+ }else
+    return true;}
+</script>
+<td align="center" valign="top">
+<button class="btn_btn btn_in h-captcha" id="btn_login" data-sitekey="99b78ad2-949f-4620-a479-abbee3b3c4ce" data-size="invisible" data-callback="onSubmit_LogIn">Enter</button>
+</td>
+</form> <td align="center" valign="top"><p style="font-size:14px; " onclick="location.href='/signup';" class="reg phover">Registration</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script type="text/javascript">
+
+function ToggleHiden1(a){
+var e=document.getElementById(a);
+document.getElementById("login1").style.display="none";
+
+document.getElementById("login2").style.display="block";
+    setTimeout(function () {
+
+document.getElementById("login2").style.opacity="1";
+    }, 50);
+
+
+}
+
+
+
+
+</script>
+<div class="statistic">
+<div class="prof-title">Statistics</div>
+<table cellspacing="0" border="0" align="center">
+<tbody>
+<tr>
+<td class="stats-line">Total players:</td>
+<td class="stats-line-st">3111456 Users</td>
+</tr>
+<tr>
+<td class="stats-line">New for 24 hours:</td>
+<td class="stats-line-st">1273 Users</td>
+</tr>
+<tr>
+<td class="stats-line">Active today:</td>
+<td class="stats-line-st">31584 Users</td>
+</tr>
+</tbody>
+</table>
+<div class="st-btn">
+<button onclick="location.href='/signup';" class="new_button st_new_button" style>Create account</button>
+</div>
+</div>
+<div class="stat" style="display:none;padding-top: 5px;">
+<div class="h-title" style="font-family: sans-serif;">Payment systems:</div>
+<div class="cntrl-ps">
+</div>
+</div>
+</div>
+</div></div>
+<div class="cl-right content_s" id="content_s">
+<span id="content_block" style="display: contents;">
+</body>
+</html>
+<style>
+ .form-control-main {
+     line-height: 22px;
+     padding: 6px 12px;
+     margin: 5px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     background-color: white;
+         width: 120px;
+ }
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     /* display: none; <- Crashes Chrome on hover */
+     -webkit-appearance: none;
+     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+ }
+ input[type=number] {
+     -moz-appearance:textfield;
+ }
+
+
+ .gift-table{
+ 	margin-top:10px;
+ }
+ .gift-table td{
+ 	width: 50%;
+ }
+ .gift-text{
+ 	font-size: 1.115em;
+     font-weight: 600;
+     color: #4c4c4b;
+     text-shadow: 0px 0px 0px #efe9d3, 1px 1px 2px #f7f4eb;
+ 	margin-top: 3px;
+ }
+ .gift-text-en{
+ 	font-size: 1.195em;
+ 	padding-left: 41px;
+ }
+ .gift-text-ru{
+ 	font-size: 1.115em;
+ }
+
+ </style>
+<div class="s-bk-lf">
+<div class="acc-title">Calculate income</div>
+</div>
+<div class="silver-bk">
+<center><b><p>Here you can calculate your income</p></b></center>
+<p>Enter a number of birds to see how much gold they will bring you.</p>
+<p>* Please note that your earnings will increase exponentially, if you buy new birds for earned gold.</p>
+<br>
+<div class="form-control-main break_word bg_white block-calculate" style="width: 572px;">
+<center>
+<font style="margin-left:0px; font-weight:500; font-size: 14px;"><div style>Your income: <span style="font-weight:600;" id="res_sum_silver_100"></span> per 24 hours.</font></div>
+</center>
+</div>
+<style>
+.c-bird-0{
+width: 85px;
+}
+.c-bird-1{
+width: 95px;
+}
+.c-bird-2{
+width: 89px;
+}
+.c-bird-3{
+width: 83px;
+}
+.c-bird-4{
+width: 99px;
+}
+.c-bird-5{
+width: 100px;
+}
+.c-bird-6{
+width: 109px;
+}
+.c-bird-7{
+width: 107px;
+}
+</style>
+<table style="margin-left: 55px;">
+<tr>
+<th><img src="img/birds/beige.png" class="c-bird-0"></th>
+<th><img src="img/birds/green.png" class="c-bird-1"></th>
+<th><img src="img/birds/yellow.png" class="c-bird-2"></th>
+<th><img src="img/birds/brown.png" class="c-bird-3"></th>
+</tr>
+<tr>
+<td><input class="form-control-main" type="number" name="oa" id="sum0" value="1" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+<td><input class="form-control-main" type="number" name="oa" id="sum1" value="1" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+<td><input class="form-control-main" type="number" name="oa" id="sum2" value="1" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+<td><input class="form-control-main" type="number" name="oa3" id="sum3" value="1" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+</tr>
+</table>
+<table style="margin-left: 55px;">
+<tr>
+<center>
+<th><img src="img/birds/blue.png" class="c-bird-4"></th>
+<th><img src="img/birds/red.png" class="c-bird-5"></th>
+<td><img src="img/birds/king-bird.png" class="c-bird-6"></td>
+<td><img src="img/birds/super.jpg" /></td>
+</center>
+</tr>
+<tr>
+<center>
+<td><input class="form-control-main" type="number" name="oa" id="sum4" value="0" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+<td><input class="form-control-main" type="number" name="oa" id="sum5" value="0" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+<td><input class="form-control-main" type="number" name="oa" id="sum6" value="0" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)"> </td>
+<td><input style="background: #fafafa;" class="form-control-main" type="number" name="oa" id="sum7" value="0" size="7" onchange="calculate(this.value)" onkeyup="calculate(this.value)" onfocusout="calculate(this.value)" onfocus="calculate(this.value)" onactivate="calculate(this.value)" ondeactivate="calculate(this.value)" readonly> </td>
+</center>
+</tr>
+</table>
+<br>
+<form action="/signup" method="post">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td colspan="2" align="center" style="padding:3px;"><button name="registr" type="submit" value="Sign Up" class="new_button" style="height: 35px;min-width: 193px;">Sign Up</button></td>
+</tr>
+</tbody></table>
+</form>
+<div style="margin-top:25px;align-content:center;">
+<a href="signup.html">
+<table class="gift-table">
+<tbody>
+<tr>
+<td>
+<p class="gift-text gift-text-en">Sign Up right now <br>and get «<font color="#539200">Green</font>» bird <br>+300 gold coins as a gift</p>
+</td>
+<td>
+<img src="img/gift-gold.png" style="margin-left:-6px;margin-top:-21px;width: 351px;">
+</td>
+</tr>
+</tbody>
+</table>
+</a>
+</div>
+</div>
+<script type="text/javascript">
+
+var min = 0.01;
+var ser_pr0 = 1;
+var ser_pr1 = 5;
+var ser_pr2 = 55;
+var ser_pr3 = 277;
+var ser_pr4 = 1430;
+var ser_pr5 = 7230;
+var ser_pr6 = 21925;
+var ser_pr7 = 210;
+
+function calculate(st_q) {
+	  var sum0 = $('#sum0').val();
+    var sum1 = $('#sum1').val();
+    var sum2 = $('#sum2').val();
+    var sum3 = $('#sum3').val();
+    var sum4 = $('#sum4').val();
+    var sum5 = $('#sum5').val();
+    var sum6 = $('#sum6').val();
+    var sum7 = $('#sum7').val();
+
+	var sum_insert0 = parseInt(sum0);
+	var sum_insert1 = parseInt(sum1);
+	var sum_insert2 = parseInt(sum2);
+	var sum_insert3 = parseInt(sum3);
+	var sum_insert4 = parseInt(sum4);
+	var sum_insert5 = parseInt(sum5);
+	var sum_insert6 = parseInt(sum6);
+	var sum_insert7 = parseInt(sum7);
+
+	var cal0 =  parseInt(sum_insert0 * ser_pr0 * 24);
+	var cal1 =  parseInt(sum_insert1 * ser_pr1 * 24);
+	var cal2 =  parseInt(sum_insert2 * ser_pr2 * 24);
+	var cal3 =  parseInt(sum_insert3 * ser_pr3 * 24);
+	var cal4 =  parseInt(sum_insert4 * ser_pr4 * 24);
+	var cal5 =  parseInt(sum_insert5 * ser_pr5 * 24);
+	var cal6 =  parseInt(sum_insert6 * ser_pr6 * 24);
+	var cal7 =  parseInt(sum_insert7 * ser_pr7 * 24);
+
+var silver_rate = "8200";
+var eggs = parseInt(cal0 + cal1 + cal2 + cal3 + cal4 + cal5 + cal6);
+var serebro = eggs / 100;
+var fiat = serebro / silver_rate;
+
+
+$('#res_sum').html( ((eggs) ));
+
+$('#res_sum2').html( ((serebro  * 0.7).toFixed(2) ));
+$('#res_sum3').html( (((fiat * 0.7) ).toFixed(6) ));
+
+$('#res_sum4').html( (((serebro * 0.3) + cal7).toFixed(2) ));
+$('#res_sum5').html( (((fiat * 0.3) + (cal7 / silver_rate)).toFixed(6) ));
+$('#res_sum_silver_100').html( ((serebro + cal7).toFixed(2) ));
+
+if($("#res_sum_silver_100").html()>"0.9999") {
+		 $('#res_sum_silver_100').html( ((serebro + cal7).toFixed(2) ));
+					 } else {
+			$('#res_sum_silver_100').html( ((serebro + cal7).toFixed(6) ));
+	}
+
+var money1 = (fiat) +(cal7 / silver_rate);
+	    $('#res_sum6').html( (((fiat) +(cal7 / silver_rate)).toFixed(2) ));
+
+ if($("#res_sum6").html()>"0.9999") {
+	    $('#res_sum6').html( (((fiat) +(cal7 / silver_rate)).toFixed(2) ));
+            } else {
+	     $('#res_sum6').html( (((fiat) +(cal7 / silver_rate)).toFixed(6) ));
+   }
+
+    if($("#res_sum3").html()>"0.9999") {
+$('#res_sum3').html( (((fiat * 0.7) ).toFixed(2) ));
+            } else {
+
+$('#res_sum3').html( (((fiat * 0.7) ).toFixed(6) ));
+
+   }
+
+    if($("#res_sum5").html()>"0.9999") {
+$('#res_sum5').html( (((fiat * 0.3) + (cal7 / silver_rate)).toFixed(2) ));
+            } else {
+
+$('#res_sum5').html( (((fiat * 0.3) + (cal7 / silver_rate)).toFixed(6) ));
+
+   }
+
+    if($("#res_sum6").html()=="0.0000") {
+	    $('#res_sum6').html( ((0) ));
+
+   }
+
+       if($("#res_sum5").html()=="0.0000") {
+	    $('#res_sum5').html( ((0) ));
+
+   }
+
+       if($("#res_sum3").html()=="0.0000") {
+	    $('#res_sum3').html( ((0) ));
+
+   }
+
+       if($("#res_sum6").html()=="NaN") {
+	    $('#res_sum6').html( ((0) ));
+
+   }
+       if($("#res_sum3").html()=="NaN") {
+	    $('#res_sum3').html( ((0) ));
+
+   }
+       if($("#res_sum5").html()=="NaN") {
+	    $('#res_sum5').html( ((0) ));
+
+   }
+
+	 if($("#sum0").val()=="") {
+	$('#sum0').val( ((0) ));
+            }
+
+	 if($("#sum1").val()=="") {
+	$('#sum1').val( ((0) ));
+            }
+
+	    	 if($("#sum2").val()=="") {
+	$('#sum2').val( ((0) ));
+            }
+
+	    	 if($("#sum3").val()=="") {
+	$('#sum3').val( ((0) ));
+            }
+
+	    	 if($("#sum4").val()=="") {
+	$('#sum4').val( ((0) ));
+            }
+
+	    	 if($("#sum5").val()=="") {
+	$('#sum5').val( ((0) ));
+            }
+
+
+	    	 if($("#sum6").val()=="") {
+	$('#sum6').val( ((0) ));
+            }
+
+	    	 if($("#sum7").val()=="") {
+	$('#sum7').val( ((0) ));
+            }
+   }
+
+   var timerId = setInterval(function() {
+ calculate();
+}, 10);
+    window.onload = calculate;
+    document.onmouseover = calculate;
+</script>
+</span></div>
+<div class="clr"></div>
+<div class="footer">
+<div class="bottom_tree"></div>
+<center>
+<div class="footer-text">coin-birds.com - ALL RIGHTS RESERVED - DDoS Protected, SSL Certified - Supported by <a style="color:#f7f7f7;" href="https://cloudflare.com/" target="_blank">Cloudflare</a></div>
+</center>
+</div>
+<script>
+</script>
+<script type="text/javascript" src="js/scrollReveal.js"></script>
+<script>
+        window.scrollReveal = new scrollReveal({viewportFactor:0.33, reset: true, init: true});
+    </script>
+
